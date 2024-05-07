@@ -1,0 +1,42 @@
+body{
+    background-color: #87ceeb;
+    background-attachment: fixed;
+}
+
+        .css-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 2.5fr 1fr;
+        }
+    
+        .css-videos-list {
+            overflow: scroll;
+            max-height: 100vh;
+            padding-right: 5px;
+    
+    
+        }
+    
+        .css-videos-list .item {
+            margin-bottom: 13px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        @media (max-width: 900px) {
+            .css-grid {
+                grid-template-columns: 1fr;
+                /* Set a single column layout */
+            }
+    
+            .grid-item {
+                grid-column: span 2;
+                /* Make grid items span both columns */
+            }
+
+            .css-videos-list{
+                max-height: auto;
+                overflow: hidden;
+             
+            }
+        }

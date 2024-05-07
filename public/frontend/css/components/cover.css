@@ -1,0 +1,12 @@
+.cover-wrap {
+
+    height: 160px;
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* background-size: 12%; */
+
+
+}

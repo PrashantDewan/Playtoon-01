@@ -1,0 +1,107 @@
+header{
+    padding:  20px 30px !important;
+}
+
+.navbar{
+    padding-top: 0 !important;
+  
+
+}
+
+.navbar .container-fluid{
+    padding: 15px 20px;
+}
+.navbar-brand img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.nav-user-info-text{
+    transform: translateY(10px);
+}
+
+.nav-item img {
+    width: 25px;
+    height: 30px;
+    object-fit: contain;
+    
+}
+
+
+
+
+header .nav-items-wrap form{
+    height: fit-content !important;
+    width: 40%;
+}
+
+
+.slick-initialized .slick-slide {
+height: fit-content;
+}
+
+.bg-header{
+    transition: background-color 0.3s ease-in;
+    background-color:rgba(167, 174, 249, 0.9)  !important ;
+}
+.scrolled {
+    transition: padding 0.3s ease-in;
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+}
+
+.active-nav-link{
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.nav-link img{
+    display: inline-block;
+  
+        width: 43px;
+        height: 43px;
+        padding: 6px;
+    transition: all 0.3s ease-in;
+}
+
+.nav-link:hover img{
+background-color: white;
+    border-radius: 50%;
+
+    width: 43px;
+    height: 43px;
+    /* padding: 6px; */
+}
+
+/*     background-color: white;
+    border-radius: 50%;
+     padding: 7px; 
+    width: 43px;
+    height: 43px;
+    padding: 6px; 
+
+    */
+
+
+/* responsive  */
+@media (max-width: 991px) {
+    header .nav-items-wrap{
+        flex-direction: column !important;
+    }
+
+        header .nav-items-wrap form {
+            height: fit-content !important;
+            width: auto;
+        }
+
+        .navbar-collapse div{
+            align-items: normal !important;
+        }
+
+        .navbar-nav .nav-item .nav-link .align-items-center{
+            align-items: flex-start !important;
+        }
+
+      
+}

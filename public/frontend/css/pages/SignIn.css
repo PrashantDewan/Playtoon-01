@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: #dbdbdb;
+    padding: 0 !important;
+    
+}
+
+.css-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh !important;
+
+}
+
+.container-sign-up{
+    width: 50%;
+}
+
+.logo {
+    width: 220px;
+}
+
+
+@media (max-width: 768px) {
+    .container-sign-up {
+        width: 100%;
+    }
+}

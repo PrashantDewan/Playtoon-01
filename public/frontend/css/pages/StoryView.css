@@ -1,0 +1,17 @@
+.thumbnail-img-wrap img {
+   
+ 
+    height: 100%;
+    object-fit: cover;
+}
+
+.story-thumbnail{
+    min-width: 30%  !important;
+    /* height: 250px !important; */
+}
+
+.story-readport{
+    max-width: 800px;
+    line-height: 1.5;
+ 
+}

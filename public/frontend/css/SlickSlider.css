@@ -1,0 +1,55 @@
+.slick-slider {
+    height: auto;
+}
+
+ul.slick-dots {
+    list-style: none;
+    /* Remove default list styles */
+    display: flex;
+    /* Display the dots horizontally */
+    justify-content: center;
+    /* Center align the dots */
+}
+
+/* Styling each dot */
+ul.slick-dots li {
+    margin: 0 5px;
+    /* Add spacing between dots */
+}
+
+/* Styling the dot button */
+ul.slick-dots li button {
+    background-color: #aaa;
+    /* Set the background color of the dots */
+    width: 10px;
+    /* Set the width of the dots */
+    height: 10px;
+    /* Set the height of the dots */
+    border-radius: 50%;
+    /* Make the dots circular */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Show cursor pointer on hover */
+}
+
+/* Styling the active dot */
+ul.slick-dots li.slick-active button {
+    background-color: var(--color-main);
+    width: 10px;
+    height: 10px;
+
+    /* Set the background color of the active dot */
+}
+
+/* Hide the button content inside the dot buttons */
+.slick-dots li button {
+    color: transparent;
+    background: none;
+    border: none;
+    font-size: 0;
+}
+
+.slick-prev:before, .slick-next:before {
+color: var(--color-main);
+}

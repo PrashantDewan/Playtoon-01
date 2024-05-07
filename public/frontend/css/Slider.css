@@ -1,0 +1,15 @@
+.owl-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.owl-nav button{
+    padding: 10px;
+}
+.owl-nav button span{
+    font-size: 35px !important;
+    color: var(--color-main);
+}

@@ -1,0 +1,39 @@
+.card-box{
+    height: 160px;
+        border-radius: 15px;
+        padding: 15px 20px;
+        width: 100%;
+        background-repeat: no-repeat;
+            background-position: right top;
+            /* background-size: 30%; */
+}
+.card-achievements{
+    max-height: 280px;
+}
+
+.stat-box{
+        border-radius: 15px;
+        padding: 15px 20px;
+}
+
+.stat-item{
+    height: 47% !important;
+    /* height: auto !important; */
+        /* Change the height value */
+    /* height: fit-content !important; */
+    max-height: 300px;
+}
+.stat-item div{
+    height: 100%;
+}
+.chart-wrap{
+height: 100%;
+width: 100%;
+display: flex;
+}
+#myChart {
+    height: 100% !important;
+    width: 100% !important;
+    /* display: block; */
+    /* Add this line */
+}

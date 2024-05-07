@@ -1,0 +1,24 @@
+
+
+ .btn-call-to-action{
+    background-color: var(--bg-1);
+}
+
+ .css-fs-hero-title{
+    font-size: 60px;
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+    line-height: 1.2;
+}
+
+ .hero-img-wrap{
+    /* width: 70%; */
+}
+.hero-img-wrap img{
+    width: 65%;
+}
+
+.section-working .image-wrap img{
+    width: 50px;
+    object-fit: cover;
+}

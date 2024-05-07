@@ -1,0 +1,9 @@
+body{
+    background: rgb(45, 143, 180);
+        background: linear-gradient(180deg, rgba(45, 143, 180, 1) 0%, rgba(96, 244, 235, 1) 100%);
+        background-attachment: fixed;
+}
+
+.css-row div{
+    margin-top: 11px;
+}
